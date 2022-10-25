@@ -1,16 +1,19 @@
-<style>
-body {
-  background-color: darkred;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-h1 {
-  color: white;
-  text-align: center;
+li {
+    float: left;
 }
 
-p {
-  font-family: times new roman;
-  font-size: 20px;
-  color: white
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-</style>
