@@ -7,11 +7,11 @@ ul {
 }
 
 li {
-    float: center;
+    float: left;
 }
 
 li a {
-    display: inline;
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
