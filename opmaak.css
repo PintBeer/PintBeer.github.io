@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 15px;
     overflow: hidden;
-    background-color: darkred;
+    background-image: linear-gradient(69deg, darkred, darkgoldenrod);
 }
 
 li {
@@ -32,7 +32,7 @@ li a:hover {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: darkred;
+    background-image: linear-gradient(69deg, darkred, darkgoldenrod);
     padding: 0;
     text-align: center;
 }
