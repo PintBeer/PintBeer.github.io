@@ -26,3 +26,12 @@ li a:hover {
 .active {
     background-color: black;
 }
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkred;
+    padding: 10px;
+    text-align: center;
+}
