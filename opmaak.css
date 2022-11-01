@@ -33,6 +33,6 @@ li a:hover {
     bottom: 0;
     width: 100%;
     background-color: darkred;
-    padding: 2px;
+    padding: 0;
     text-align: center;
 }
