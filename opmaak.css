@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 15px;
     overflow: hidden;
-    background-image: linear-gradient(69deg, darkred, darkgoldenrod);
+    background-color: darkred;
 }
 
 li {
@@ -24,7 +24,7 @@ li a:hover {
 }
 
 .active {
-    background-color: black;
+    background-image: linear-gradient(180deg, darkred, black, darkred);
 }
 .footer{
     color: white;
@@ -32,7 +32,7 @@ li a:hover {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-image: linear-gradient(69deg, darkred, darkgoldenrod);
+    background-color: darkred;
     padding: 0;
     text-align: center;
 }
