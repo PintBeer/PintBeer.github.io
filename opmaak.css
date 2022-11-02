@@ -1,16 +1,16 @@
-ul {
+ul { /*dit is de opmaak van het menu bovenaan de pagina*/
     list-style-type: none;
     margin: 0;
     padding: 15px;
     overflow: hidden;
     background-color: darkred;
+} 
+
+li { /*dit is waar de tekst op de pagina staat*/
+    float: left; 
 }
 
-li {
-    float: left;
-}
-
-li a {
+li a { /*dit is hoe de tekst zelf eruit ziet*/
     display: inline;
     color: white;
     text-align: center;
@@ -19,14 +19,14 @@ li a {
 
 }
 
-li a:hover {
+li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     background-color: grey;
 }
 
-.active {
+.active { /*dit is wat er gebeurt als er een link is geselecteerd*/
     background-image: linear-gradient(90deg, darkred, black, darkred);
 }
-.footer{
+.footer{ /*dit is de opmaak van de footer*/
     color: white;
     position: fixed;
     left: 0;
