@@ -20,7 +20,7 @@ li a { /*dit is hoe de tekst zelf eruit ziet*/
 }
 
 li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
-    background-color: grey;
+    background-image: linear-gradient(90deg, darkred, black, darkred);
 }
 
 .active { /*dit is wat er gebeurt als er een link is geselecteerd*/
