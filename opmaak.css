@@ -41,3 +41,9 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     padding: 0;
     text-align: center;
 }
+
+div {
+    background-color: navy;
+    padding: 20px;
+    border: 10px black;
+}
