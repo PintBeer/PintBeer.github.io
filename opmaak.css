@@ -16,12 +16,12 @@ li { /*dit is waar de tekst op de pagina staat*/
 }
 
 li a { /*dit is hoe de tekst zelf eruit ziet*/
-    display: inline;
+    display: block;
     color: white;
     text-align: center;
     padding: 30px;
     text-decoration: none;
-
+    width: 30px
 }
 
 li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
