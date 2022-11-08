@@ -63,4 +63,5 @@ p {
     outline-color: white;
     outline-style: solid;
     outline-width: 5px;
+    padding: 15px;
 }
