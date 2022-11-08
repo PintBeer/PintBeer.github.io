@@ -28,7 +28,7 @@ li { /*dit is waar de tekst op de pagina staat*/
 }
 
 li a { /*dit is hoe de tekst zelf eruit ziet*/
-    display: block;
+    display: inline;
     color: white;
     text-align: center;
     padding: 30px;
