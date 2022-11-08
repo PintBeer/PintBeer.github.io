@@ -67,3 +67,9 @@ p {
     display: inline-block;
     width: 800px;
 }
+
+img {
+    border-radius: 8px;
+    width: 1000px;
+    float: right;
+}
