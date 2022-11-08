@@ -1,12 +1,12 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
 h2 {
     background-color: darkred;
     color: white;
     padding: 10px;
-    outline-color: white;
+    outline-color: black;
     outline-style: solid;
     outline-width: 5px;
     text-align: center;
@@ -18,7 +18,7 @@ ul { /*dit is de opmaak van het menu bovenaan de pagina*/
     padding: 20px;
     overflow: hidden;
     background-color: darkred;
-    outline-color: white;
+    outline-color: black;
     outline-style: solid;
     outline-width: 5px;
 } 
@@ -52,7 +52,7 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     background-color: darkred;
     padding: 0;
     text-align: center;
-    outline-color: white;
+    outline-color: black;
     outline-style: solid;
     outline-width: 5px;
 }
@@ -60,7 +60,7 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
 p {
     color: white;
     background-color: navy;
-    outline-color: white;
+    outline-color: black;
     outline-style: solid;
     outline-width: 5px;
     padding: 15px;
