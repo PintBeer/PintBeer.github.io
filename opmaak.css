@@ -62,3 +62,11 @@ div {
     padding: 20px;
     border: 10px black;
 }
+
+p {
+    color: white;
+    background-color: navy;
+    outline-color: white;
+    outline-style: solid;
+    outline-width: 5px;
+}
