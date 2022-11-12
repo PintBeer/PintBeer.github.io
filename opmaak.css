@@ -77,9 +77,9 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
 }
 
 .text2 {
-    float: left;
     display: inline-block;
-    width: 900px
+    width: 900px;
+    text-align: center;
 }
 
 .img1 {
