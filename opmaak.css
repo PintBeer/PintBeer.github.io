@@ -70,19 +70,24 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     margin: 20px;
     word-spacing: 2px;
     line-height: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: fixed;
 }
 
 .p2 {
-    display: block;
+    display: inline-block;
     color: white;
-    background-color: darkred;
+    background-color: navy;
     outline-color: black;
     outline-style: solid;
-    outline-width: 2px;
+    outline-width: 5px;
+    font-family: "Lucida Handwriting", "Times New Roman", cursive;
 }
 
 img {
     border-radius: 8px;
     width: 800px;
     float: right;
+    max-width: 100%;
+    height: auto;
 }
