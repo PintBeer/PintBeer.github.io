@@ -78,6 +78,8 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
 
 .text {
     float: left;
+    display: inline-block;
+    width: 550px
 }
 
 img {
