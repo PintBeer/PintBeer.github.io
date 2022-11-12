@@ -36,6 +36,11 @@ li a { /*dit is hoe de tekst zelf eruit ziet*/
     width: 30px
 }
 
+.intextlink {
+    color: navy;
+    text-decoration: underline;
+}
+
 li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     background-image: linear-gradient(90deg, darkred, black, darkred);
 }
@@ -123,3 +128,4 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     margin-top: 100px;
     margin-left: 10px;
 }
+
