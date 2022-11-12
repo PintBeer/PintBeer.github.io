@@ -43,6 +43,7 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
 .active { /*dit is wat er gebeurt als er een link is geselecteerd*/
     background-image: linear-gradient(90deg, darkred, black, darkred);
 }
+
 .footer{ /*dit is de opmaak van de footer*/
     color: white;
     position: fixed;
@@ -57,7 +58,7 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     outline-width: 5px;
 }
 
-p {
+.p1 {
     color: white;
     background-color: navy;
     outline-color: black;
@@ -67,6 +68,17 @@ p {
     display: inline-block;
     width: 800px;
     margin: 20px;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+
+.p2 {
+    display: block;
+    color: white;
+    background-color: darkred;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 2px;
 }
 
 img {
