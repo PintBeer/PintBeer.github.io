@@ -79,7 +79,7 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
 .text2 {
     display: inline-block;
     width: 900px;
-    text-align: center;
+    text-align: left;
 }
 
 .img1 {
@@ -98,6 +98,7 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     outline-color: black;
     outline-style: solid;
     outline-width: 5px;
+    float: right; 
 }
 
 .img4 {
@@ -108,4 +109,5 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     outline-color: black;
     outline-style: solid;
     outline-width: 5px;
+    float: right;
 }
