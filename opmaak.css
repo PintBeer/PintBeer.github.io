@@ -58,20 +58,6 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     outline-width: 5px;
 }
 
-.p1 {
-    color: black;
-    padding: 15px;
-    display: inline-block;
-    width: 800px;
-    margin: 20px;
-    word-spacing: 2px;
-    line-height: 20px;
-    font-family:'Times New Roman', Times, serif;
-    position: fixed;
-    float: center;
-    text-align: center;
-}
-
 .p2 {
     display: inline-block;
     color: white;
@@ -79,8 +65,15 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
 }
 
 .text2 {
+    color: black;
+    padding: 15px;
     display: block;
-    width: 1500px;
+    width: 1300px;
+    margin: 20px;
+    word-spacing: 5px;
+    line-height: 20px;
+    font-family:'Times New Roman', Times, serif;
+    float: center;
     text-align: center;
 }
 
