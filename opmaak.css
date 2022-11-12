@@ -68,6 +68,8 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     line-height: 20px;
     font-family:'Times New Roman', Times, serif;
     position: fixed;
+    float: center;
+    text-align: center;
 }
 
 .p2 {
@@ -77,9 +79,9 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
 }
 
 .text2 {
-    display: inline-block;
-    width: 900px;
-    text-align: left;
+    display: block;
+    width: 1500px;
+    text-align: center;
 }
 
 .img1 {
@@ -98,7 +100,8 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     outline-color: black;
     outline-style: solid;
     outline-width: 5px;
-    float: right; 
+    float: left; 
+    margin: 10px;
 }
 
 .img4 {
@@ -110,4 +113,7 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     outline-style: solid;
     outline-width: 5px;
     float: right;
+    margin-right: 300px;
+    margin-top: 100px;
+    margin-left: 10px;
 }
