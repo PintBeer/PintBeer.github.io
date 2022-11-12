@@ -60,10 +60,6 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
 
 .p1 {
     color: white;
-    background-color: navy;
-    outline-color: black;
-    outline-style: solid;
-    outline-width: 5px;
     padding: 15px;
     display: inline-block;
     width: 800px;
