@@ -82,10 +82,17 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     width: 550px
 }
 
-img {
+.img1 {
     border-radius: 8px;
     width: 800px;
     float: right;
+    max-width: 100%;
+    height: auto;
+}
+
+.img2 {
+    border-radius: 8px;
+    height: 400px;
     max-width: 100%;
     height: auto;
 }
