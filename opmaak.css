@@ -1,18 +1,18 @@
-body {
-    background-image: linear-gradient(45deg, gold, black);
+body { /*dit is de achtergrond van de hele pagina*/
+    background-image: linear-gradient(45deg, gold, black); /*ik heb hier een gradient toegevoegd; twee kleuren die overlopen in elkaar*/
 }
 
-h1 {
+h1 { /*dit is de opmaak van de titel bovenaan de pagina*/
     background-color: darkred;
     color: white;
-    padding: 10px;
+    padding: 10px; 
     outline-color: black;
     outline-style: solid;
     outline-width: 5px;
     text-align: center;
 }
 
-ul { /*dit is de opmaak van het menu bovenaan de pagina*/
+ul { /*dit is de opmaak van de taakbalk bovenaan de pagina*/
     list-style-type: none;
     margin: none;
     padding: 20px;
@@ -23,11 +23,11 @@ ul { /*dit is de opmaak van het menu bovenaan de pagina*/
     outline-width: 5px;
 } 
 
-li { /*dit is waar de tekst op de pagina staat*/
+li { /*dit zorgt ervoor dat de links in de taakbalk aan de linkerklant komen te staan*/
     float: left; 
 }
 
-li a { /*dit is hoe de tekst zelf eruit ziet*/
+li a { /*dit is hoe de tekst van de taakbalk links zelf eruit ziet*/
     display: inline;
     color: white;
     text-align: center;
@@ -36,11 +36,11 @@ li a { /*dit is hoe de tekst zelf eruit ziet*/
     width: 30px
 }
 
-li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
+li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter de link als je erover hovert met je muis*/
     background-image: linear-gradient(90deg, darkred, black, darkred);
 }
 
-.active { /*dit is wat er gebeurt als er een link is geselecteerd*/
+.active { /*dit zorgt voor een gradient van rood naar zwart naar rood achter de link als je hem hebt aangeklikt*/
     background-image: linear-gradient(90deg, darkred, black, darkred);
 }
 
@@ -58,13 +58,13 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     outline-width: 5px;
 }
 
-.p2 {
+.p2 { /*dit is de opmaak van de tekst zelf in de footer*/
     display: inline-block;
     color: white;
     font-family: "Lucida Handwriting", "Times New Roman", cursive;
 }
 
-.text1 {
+.text1 { /*dit is de opmaak van de tekst op de pagina's, ze staan verdeeld per class omdat ze soms net wat anders moeten zijn*/
     color: black;
     padding: 15px;
     display: block;
@@ -119,7 +119,7 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     height: 800px;
 }
 
-.img1 {
+.img1 { /*dit is de opmaak van de plaatjes op de pagina's, ze staan verdeeld per class omdat ze soms net wat anders moeten zijn*/
     border-radius: 8px;
     width: 800px;
     float: right;
