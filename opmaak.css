@@ -164,3 +164,13 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     margin-left: 10px;
 }
 
+.img5 {
+    border-radius: 8px;
+    width: 500px;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 5px;
+    float: right;
+    margin-right: 300px;
+    margin-left: 10px
+}
