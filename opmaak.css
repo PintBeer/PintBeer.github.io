@@ -96,6 +96,7 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     float: right;
     max-width: 100%;
     height: auto;
+    margin-right: 150px;
 }
 
 .img2 {
