@@ -75,9 +75,23 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     font-family:'Times New Roman', Times, serif;
     float: center;
     text-align: center;
+    height: 800px;
 }
 
 .text2 {
+    color: black;
+    padding: 15px;
+    display: block;
+    width: 1300px;
+    margin: 20px;
+    word-spacing: 5px;
+    line-height: 20px;
+    font-family:'Times New Roman', Times, serif;
+    float: center;
+    text-align: center;
+}
+
+.text3 {
     color: black;
     padding: 15px;
     display: block;
@@ -109,6 +123,10 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     outline-width: 5px;
     float: left; 
     margin: 10px;
+}
+
+.img3 {
+
 }
 
 .img4 {
