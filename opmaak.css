@@ -127,6 +127,9 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     height: auto;
     margin-right: 150px;
     margin-left: 10px;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 5px
 }
 
 .img2 {
