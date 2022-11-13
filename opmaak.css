@@ -33,7 +33,7 @@ li a { /*dit is hoe de tekst van de taakbalk links zelf eruit ziet*/
     text-align: center;
     padding: 30px;
     text-decoration: none;
-    width: 30px
+    width: 30px;
 }
 
 li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter de link als je erover hovert met je muis*/
@@ -129,7 +129,7 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
     margin-left: 10px;
     outline-color: black;
     outline-style: solid;
-    outline-width: 5px
+    outline-width: 5px;
 }
 
 .img2 {
