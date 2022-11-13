@@ -1,35 +1,34 @@
 <!DOCTYPE html> <!--dit is de homepage van mijn site-->
 <html> <!--dit is het html element-->
-    <head>
-        <title>Kleurmodellen</title><!--dit is de titel van de pagina-->
+    <head> <!--dit is wat er op het tabblad komt te staan-->
+        <title>Kleurmodellen</title> <!--dit is de titel van de pagina die op het tabblad te zien is-->
         
         <meta charset="utf-8">
         
-        <link rel="stylesheet" type="text/css" href="opmaak.css"> <!--dit is de link naar het css bestand-->
+        <link rel="stylesheet" type="text/css" href="opmaak.css"> <!--dit is de link naar het css bestand waardoor html snapt uit welk bestand de opmaak komt-->
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--dit zorgt dat de website beter is op telefoon-->
     </head>
     <body>
-        <h1>Kleurmodellen</h1> <!--dit is wat er bovenaan de pagina staat-->
+        <h1>Kleurmodellen</h1> <!--dit is wat er bovenaan de pagina staat als titel-->
         
         <ul>
             <li><a href="index.html">Home</a></li> <!--dit is de link naar de homepagina-->
             <li><a href="binairstelsel.html">Binair stelsel</a></li> <!--dit is de link naar de pagina over het binairstelsel-->
             <li><a href="kleurmodellen.html" class="active">Kleurmodellen</a></li> <!--dit is de link naar de pagina over kleurmodellen-->
-            <li><a href="bitmap.html">Bitmap en Vector</a></li>
+            <li><a href="bitmap.html">Bitmap en Vector</a></li> <!--dit is de link naar de pagina over bitmap en vector-->
         </ul>
         
-        <img class="img3" src="kleurmodellen.png" alt="Deze site is nog niet af"> <!--dit het plaatje op de pagina-->
+        <img class="img3" src="kleurmodellen.png" alt="Deze site is nog niet af"> <!--dit is het plaatje op de pagina, ik heb het een class gegeven zodat ik het apart van de andere plaatjes kan stylen in het CSS bestand-->
         
-        <div class="footer"> <!--dit is de footer-->
-            <p class="p2">
+        <div class="footer"> <!--dit is een division onderaan de pagina die zal dienen als footer-->
+            <p class="p2"> <!--dit geeft een paragraaf aan in de footer die ik een class heb gegeven om het apart te kunnen stylen-->
                 Gemaakt door Tim Crew
             </p>
         </div>
 
-        <div class="text3">
-            <p class="p1">
-                <h2>
+        <div class="text3"> <!--dit is de division waar mijn tekst zal komen, het heeft alweer een class waardoor ik het apart kan stylen-->
+                <h2> <!--dit zijn de tussenkopjes, als h2 zodat ze kleiner zijn dan de titel bovenaan de pagina-->
                     RGB
                 </h2>
                 Het RGB kleurmodel is een systeem dat wordt gebruikt om beelden te tonen op een digitale scherm. De letters staan voor 'red, green and blue'; rood, groen en blauw, de drie kleuren waaruit dit model wordt gemaakt. Als alle mogelijke kleuren aanwezig zijn krijg je wit te zijn en als helemaal geen kleuren getoond worden krijg je zwart te zien. Het idee is dat die drie kleuren kunnen worden gemengd om alle verschillende kleuren te maken. Het blijkt dat je met alleen die drie kleuren meer dan 16 000 000 combinaties, dus kleuren, kunt maken. 
@@ -37,8 +36,6 @@
                     CMYK
                 </h2>
                 CMYK is de kleurmodel die wordt gebruikt bij het printen, de letters staan voor 'cyan, magenta, yellow and key'. De eerste drie worden gemengd om kleuren te maken en die laatste 'key', wat eigenlijk zwart is, wordt meer gebruikt om details toe te voegen. Het grootste verschil tussen RGB en CMYK is dat bij de eerste er kleuren op een zwart beeld worden <i>toegevoegd</i> en bij CMYK worden kleuren op een wit beeld gezet, er worden dus kleuren <i>verwijderd</i>. Zwart is immers de afwezigheid van kleur en wit de aanwezigheid van alle kleuren.
-            </p>
         </div>
-        
     </body>
 </html>
