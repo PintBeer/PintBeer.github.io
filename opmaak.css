@@ -102,6 +102,7 @@ li a:hover { /*dit is wat er gebeurt als de muis over een link hovert*/
     font-family:'Times New Roman', Times, serif;
     float: center;
     text-align: center;
+    height: 800px;
 }
 
 .img1 {
