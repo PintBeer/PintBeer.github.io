@@ -191,7 +191,7 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
     display: none;
 }
 
-ul li a:hover .dropdownmenu {
+ul:hover .dropdownmenu {
     display: block;
     position: absolute;
     background-color: maroon;
