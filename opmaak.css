@@ -186,3 +186,13 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
     margin-right: 300px;
     margin-left: 10px
 }
+
+.dropdownmenu {
+    display: none;
+}
+
+li a:hover .dropdownmenu {
+    display: block;
+    position: absolute;
+    background-color: maroon;
+}
