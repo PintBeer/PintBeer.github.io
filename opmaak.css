@@ -1,9 +1,9 @@
 body { /*dit is de achtergrond van de hele pagina*/
-    background-image: linear-gradient(45deg, gold, black); /*ik heb hier een gradient toegevoegd; twee kleuren die overlopen in elkaar*/
+    background-color: darkgoldenrod; /*ik heb hier een gradient toegevoegd; twee kleuren die overlopen in elkaar*/
 }
 
 h1 { /*dit is de opmaak van de titel bovenaan de pagina*/
-    background-color: darkred;
+    background-color: maroon;
     color: white;
     padding: 10px; 
     outline-color: black;
@@ -17,7 +17,7 @@ ul { /*dit is de opmaak van de taakbalk bovenaan de pagina*/
     margin: none;
     padding: 20px;
     overflow: hidden;
-    background-color: darkred;
+    background-color: maroon;
     outline-color: black;
     outline-style: solid;
     outline-width: 5px;
@@ -37,14 +37,14 @@ li a { /*dit is hoe de tekst van de taakbalk links zelf eruit ziet*/
 }
 
 li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter de link als je erover hovert met je muis*/
-    background-image: linear-gradient(90deg, black, darkred, black);
+    background-image: linear-gradient(90deg, black, maroon black);
     outline-color: black;
     outline-style: solid;
     outline-width: 2px;
 }
 
 .active { /*dit zorgt voor een gradient van rood naar zwart naar rood achter de link als je hem hebt aangeklikt*/
-    background-image: linear-gradient(90deg, black, darkred, black);
+    background-image: linear-gradient(90deg, black, maroon, black);
     outline-color: black;
     outline-style: solid;
     outline-width: 2px;
@@ -56,7 +56,7 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: darkred;
+    background-color: maroon;
     padding: 0;
     text-align: center;
     outline-color: black;
