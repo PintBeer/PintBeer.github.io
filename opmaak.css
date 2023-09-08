@@ -31,7 +31,7 @@ li a { /*dit is hoe de tekst van de taakbalk links zelf eruit ziet*/
     display: inline;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     text-decoration: none;
     width: 30px;
 }
@@ -191,7 +191,7 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
     display: none;
     position: absolute;
     background-color: maroon;
-    outline-color: white;
+    outline-color: black;
     outline-style: solid;
     outline-width: 5px;
     padding: 10px;
