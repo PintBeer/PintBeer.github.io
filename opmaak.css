@@ -12,7 +12,7 @@ h1 { /*dit is de opmaak van de titel bovenaan de pagina*/
     text-align: center;
 }
 
-ul { /*dit is de opmaak van de taakbalk bovenaan de pagina*/
+.toplevelmenu { /*dit is de opmaak van de taakbalk bovenaan de pagina*/
     list-style-type: none;
     margin: none;
     padding: 20px;
@@ -187,11 +187,11 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
     margin-left: 10px
 }
 
-.dropdownmenu {
+.secondlevelmenu {
     display: none;
 }
 
-ul:hover .dropdownmenu {
+.secondlevelmenu > li:hover {
     display: block;
     position: absolute;
     background-color: maroon;
