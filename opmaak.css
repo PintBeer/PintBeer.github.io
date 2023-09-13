@@ -37,7 +37,7 @@ li a { /*dit is hoe de tekst van de taakbalk links zelf eruit ziet*/
 }
 
 li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter de link als je erover hovert met je muis*/
-    color: lightgrey;
+    color: black;
 }
 
 .active { /*dit zorgt voor een gradient van rood naar zwart naar rood achter de link als je hem hebt aangeklikt*/
