@@ -161,7 +161,7 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
 
 .img4 {
     border-radius: 8px;
-    width: 40%%;
+    width: 40%;
     float: right;
     max-width: 100%;
     height: auto;
@@ -192,7 +192,7 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
     border-width: 5px;
     padding: 10px;
     list-style-type: none;
-    width: 10%;
+    width: 12%;
     line-height: 30px;
     margin-top: 20px;
 }
