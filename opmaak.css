@@ -122,7 +122,6 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
 }
 
 .drielagenmodeltekst {
-    float: left;
     display: inline-block;
     width: 50%;
     letter-spacing: 0.5px;
