@@ -67,7 +67,7 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
     font-family: "Lucida Handwriting", "Times New Roman", cursive;
 }
 
-.text1 { /*dit is de opmaak van de tekst op de pagina's, ze staan verdeeld per class omdat ze soms net wat anders moeten zijn*/
+.indextekst { /*dit is de opmaak van de tekst op de pagina's, ze staan verdeeld per class omdat ze soms net wat anders moeten zijn*/
     color: black;
     padding: 15px;
     display: block;
@@ -81,7 +81,7 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
     height: 800px;
 }
 
-.text2 {
+.binairstelseltekst {
     color: black;
     padding: 15px;
     display: inline;
@@ -93,7 +93,7 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
     max-width: 100%;
 }
 
-.text3 {
+.kleurmodellentekst {
     color: black;
     padding: 15px;
     display: block;
@@ -107,7 +107,7 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
     height: 800px;
 }
 
-.text4 {
+.bitmaptekst {
     color: black;
     padding: 15px;
     display: block;
@@ -130,7 +130,7 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
     text-align: center;
 }
 
-.img1 { /*dit is de opmaak van de plaatjes op de pagina's, ze staan verdeeld per class omdat ze soms net wat anders moeten zijn*/
+.programmerenplaatje { /*dit is de opmaak van de plaatjes op de pagina's, ze staan verdeeld per class omdat ze soms net wat anders moeten zijn*/
     border-radius: 8px;
     width: 40%;
     float: right;
@@ -143,7 +143,7 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
     outline-width: 5px;
 }
 
-.img2 {
+.binairuitvinder {
     border-radius: 8px;
     width: 10%;
     float: left;
@@ -157,18 +157,7 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
     outline-width: 5px;
 }
 
-.img3 {
-    border-radius: 8px;
-    width: 600px;
-    float: right;
-    margin-right: 300px;
-    outline-color: black;
-    outline-style: solid;
-    outline-width: 5px;
-    margin-left: 10px;
-}
-
-.img4 {
+.binairstelsel {
     border-radius: 8px;
     width: 40%;
     float: right;
@@ -182,7 +171,18 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
     outline-width: 5px;
 }
 
-.img5 {
+.kleurmodellenplaatje {
+    border-radius: 8px;
+    width: 600px;
+    float: right;
+    margin-right: 300px;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 5px;
+    margin-left: 10px;
+}
+
+.bitmapvectorplaatje {
     border-radius: 8px;
     width: 500px;
     outline-color: black;
