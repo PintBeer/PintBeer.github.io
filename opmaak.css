@@ -122,20 +122,22 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
 }
 
 .drielagenmodeltekst {
-    display: inline-block;
-    width: 50%;
+    display: block;
+    float: left;
+    width: 40%;
     letter-spacing: 0.5px;
-    margin-left: 10px;
-    margin-top: 10px; 
+    font-size: large;
+    margin-left: 10%; 
     text-align: center;
 }
 
 .fysiekelaagtekst {
-    display: inline-block;
-    width: 50%;
+    display: block;
+    float: left;
+    width: 40%;
     letter-spacing: 0.5px;
-    margin-left: 10px;
-    margin-top: 10px; 
+    font-size: large;
+    margin-left: 10%; 
     text-align: center;
 }
 
