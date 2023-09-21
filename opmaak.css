@@ -150,10 +150,8 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
 }
 
 .databasestekst {
-    flex: 1;
-    padding-bottom: 5%;
-    width: 30%;
-    font-size: large;
+    display: block;
+    float: left;
     width: 40%;
     letter-spacing: 0.5px;
     font-size: large;
