@@ -49,7 +49,7 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
 
 .footer{ /*dit is de opmaak van de footer*/
     color: white;
-    position: static;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
