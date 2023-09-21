@@ -68,17 +68,13 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
 }
 
 .indextekst { /*dit is de opmaak van de tekst op de pagina's, ze staan verdeeld per class omdat ze soms net wat anders moeten zijn*/
-    color: black;
-    padding: 15px;
     display: block;
-    width: 1300px;
-    margin: 20px;
-    word-spacing: 5px;
-    line-height: 20px;
-    font-family:'Times New Roman', Times, serif;
-    float: center;
+    float: left;
+    width: 40%;
+    letter-spacing: 0.5px;
+    font-size: large;
+    margin-left: 10%; 
     text-align: center;
-    height: 800px;
 }
 
 .binairstelseltekst {
@@ -94,31 +90,22 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
 }
 
 .kleurmodellentekst {
-    color: black;
-    padding: 15px;
     display: block;
-    width: 1300px;
-    margin: 20px;
-    word-spacing: 5px;
-    line-height: 20px;
-    font-family:'Times New Roman', Times, serif;
-    float: center;
+    float: left;
+    width: 40%;
+    letter-spacing: 0.5px;
+    font-size: large;
+    margin-left: 10%; 
     text-align: center;
-    height: 800px;
-}
 
 .bitmaptekst {
-    color: black;
-    padding: 15px;
     display: block;
-    width: 1300px;
-    margin: 20px;
-    word-spacing: 5px;
-    line-height: 20px;
-    font-family:'Times New Roman', Times, serif;
-    float: center;
+    float: left;
+    width: 40%;
+    letter-spacing: 0.5px;
+    font-size: large;
+    margin-left: 10%; 
     text-align: center;
-    height: 800px;
 }
 
 .drielagenmodeltekst {
@@ -172,16 +159,15 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
 }
 
 .programmerenplaatje { /*dit is de opmaak van de plaatjes op de pagina's, ze staan verdeeld per class omdat ze soms net wat anders moeten zijn*/
-    border-radius: 8px;
-    width: 40%;
+    display: inline;
     float: right;
-    max-width: 100%;
-    height: auto;
-    margin-right: 10%;
-    margin-left: 2%;
+    width: 30%;
+    margin-right: 15%;
+    margin-left: 5%;
     outline-color: black;
     outline-style: solid;
     outline-width: 5px;
+    border-radius: 8px;
 }
 
 .binairuitvinderplaatje {
@@ -213,25 +199,27 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
 }
 
 .kleurmodellenplaatje {
-    border-radius: 8px;
-    width: 600px;
+    display: inline;
     float: right;
-    margin-right: 300px;
+    width: 30%;
+    margin-right: 15%;
+    margin-left: 5%;
     outline-color: black;
     outline-style: solid;
     outline-width: 5px;
-    margin-left: 10px;
+    border-radius: 8px;
 }
 
 .bitmapvectorplaatje {
-    border-radius: 8px;
-    width: 500px;
+    display: inline;
+    float: right;
+    width: 30%;
+    margin-right: 15%;
+    margin-left: 5%;
     outline-color: black;
     outline-style: solid;
     outline-width: 5px;
-    float: right;
-    margin-right: 300px;
-    margin-left: 10px
+    border-radius: 8px;
 }
 
 .fysiekelaagplaatje {
