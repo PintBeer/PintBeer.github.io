@@ -141,6 +141,16 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
     text-align: center;
 }
 
+.logischelaagtekst {
+    display: block;
+    float: left;
+    width: 40%;
+    letter-spacing: 0.5px;
+    font-size: large;
+    margin-left: 10%; 
+    text-align: center;
+}
+
 .programmerenplaatje { /*dit is de opmaak van de plaatjes op de pagina's, ze staan verdeeld per class omdat ze soms net wat anders moeten zijn*/
     border-radius: 8px;
     width: 40%;
@@ -205,6 +215,18 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
 }
 
 .fysiekelaagplaatje {
+    display: inline;
+    float: right;
+    width: 30%;
+    margin-right: 15%;
+    margin-left: 5%;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 5px;
+    border-radius: 8px;
+}
+
+.logischelaagplaatje {
     display: inline;
     float: right;
     width: 30%;
