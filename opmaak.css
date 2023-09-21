@@ -49,12 +49,12 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
 
 .footer{ /*dit is de opmaak van de footer*/
     color: white;
-    position: fixed;
+    position: static;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: maroon;
-    padding: 0;
+    padding: 4px;
     text-align: center;
     outline-color: black;
     outline-style: solid;
@@ -150,8 +150,10 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
 }
 
 .databasestekst {
-    display: block;
-    float: left;
+    flex: 1;
+    padding-bottom: 5%;
+    width: 30%;
+    font-size: large;
     width: 40%;
     letter-spacing: 0.5px;
     font-size: large;
