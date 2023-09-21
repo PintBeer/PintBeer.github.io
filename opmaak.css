@@ -261,6 +261,18 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
     border-radius: 8px;
 }
 
+.databasesplaatje {
+    display: inline;
+    float: right;
+    width: 30%;
+    margin-right: 15%;
+    margin-left: 5%;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 5px;
+    border-radius: 8px;
+}
+
 .secondlevelmenu {
     display: none;
     position: absolute;
