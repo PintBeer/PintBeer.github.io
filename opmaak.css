@@ -279,3 +279,14 @@ li a:hover { /*dit zorgt voor een gradient van rood naar zwart naar rood achter 
 .dropdown:hover .secondlevelmenu {
     display: block;
 }
+
+.databasesvideo {
+    float: right;
+    margin-right: 20%;
+    margin-top: 5%;
+    width: 500px;
+    height: 300px;
+    outline-style: solid;
+    outline-width: 5px;
+    border-radius: 8px;
+}
